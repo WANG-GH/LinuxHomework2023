@@ -64,7 +64,7 @@ TEST(MergeSort, DISABLED_AllComposeTest){
 }
 
 TEST(MergeSort, SortMgrTest){
-  SortMgr mgr("/home/wyy/prog/linux-homework/homework3/input_dir");
+  SortMgr mgr("../input_dir");
   mgr.start();
 }
 
